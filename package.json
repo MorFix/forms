@@ -27,6 +27,7 @@
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "msnodesqlv8": "^0.7.3",
     "source-map": "^0.7.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.0",

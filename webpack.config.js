@@ -3,6 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
+    target: 'node',
+    node: {
+        __dirname: false
+    },
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "public"),
@@ -22,6 +26,10 @@ module.exports = {
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loader: "file-loader"
+            },
+            {
+                test: /\.node$/i,
+                use: "node-loader"
             },
             {
                 test: /\.less$/,
