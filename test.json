@@ -1,0 +1,54 @@
+{
+  "firstProp": [
+    [
+      "part",
+      "2019-07-14T19:19:09.221Z",
+      {
+        "name": "mor",
+        "modes": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "data": "CIRCULAR => object[firstProp][0][2][data]"
+      }
+    ],
+    {
+      "name": "mor",
+      "modes": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "data": "CIRCULAR => object[firstProp][1][data]"
+    }
+  ],
+  "secondProp": [
+    [
+      "part",
+      "2019-07-14T19:19:09.221Z",
+      {
+        "name": "mor",
+        "modes": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "data": "CIRCULAR => object[secondProp][0][2][data]"
+      }
+    ],
+    {
+      "name": "mor",
+      "modes": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "data": "CIRCULAR => object[secondProp][1][data]"
+    }
+  ]
+}
